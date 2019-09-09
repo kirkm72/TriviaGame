@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kirk's Sports Trivia</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+        integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+
+    <!-- My raw css file -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <hr>
+
+        <div class="jumbotron">
+            <h1 class="text-center">Kirk's Sports Trivia!</h1>
+        </div>
+
+        <hr>
+        <h4>How many questions can you answer in 80 seconds?
+            Press "start" and the timer will start counting down.
+            Answer as many questions as possible, all unanswered questions will be counted as incorrect.
+        </h4>
+        <button type="button" id="start-button">Start!</button>
+    </div>
+    <br>
+    <div class="container" id="countdown">
+        <div class="row">
+            <div class="col-md-4">
+                <div id="time"></div>
+            </div>       
+            <div class="col-md-4">
+                <div id="right"></div>
+            </div>
+            <div class="col-md-4">
+                <div id="wrong"></div>
+            </div>
+            <!-- <div class="col-md-4">
+                <div id="unanswered"></div>
+            </div> -->
+        </div>
+
+        
+    </div>
+    <div class="container">
+
+        <div id="question"></div>
+        <div id="answer1"></div>
+        <div id="answer2"></div>
+        <div id="answer3"></div>
+        <div id="answer4"></div>
+
+
+
+    </div>
+
+
+
+    <script src="assets/javascript/triviaJS.js" type="text/javascript"></script>
+</body>
+
+
+</html>

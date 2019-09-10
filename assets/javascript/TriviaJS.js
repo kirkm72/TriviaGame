@@ -1,4 +1,3 @@
-//Declare globals here, before actual functions  & logic
 let right = 0;
 let wrong = 0;
 let intervalId;
@@ -238,7 +237,7 @@ $(document).ready(function () {
         check(selected); //send selected to "check" function
     });
 
-});
+}); //end of "Document.ready"
 
 //Insert all code inside above function
 //Remember, this is jQuery so if the library is not already called, it won't know how to deal with the above syntax
